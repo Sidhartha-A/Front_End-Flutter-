@@ -1,0 +1,82 @@
+name: grocery_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  convex_bottom_bar: ^3.0.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/first_page/food_bowl.png
+    - images/first_page/back_ground.jpg
+    - images/header_part/profile.png
+    - images/images.jpeg
+    - images/Avacado_salad.jpg
+    - images/multigrain-bread-loaf-2.jpg
+    - images/12589808-1614823857888908.jpg
+    - images/saladsq.jpg
+    - images/Greek-yogurt-smoothie-peanut-butter.jpg
+    - images/walnut-kernel-halves-in-a-wooden-bowl-free-png.jpeg
+    - images/fraiche-living-tropical-green-smoothie.jpg
+    - images/easy-beef-and-quinoa-salad-bowl-130828-2.jpg
+    - images/premium_photo-1667543228378-ec4478ab2845.jpeg
+
+
+  fonts:
+    - family: averta
+      fonts:
+        - asset: fonts/Averta/Commercial/TTF/AvertaDemoPE-ExtraboldItalic.ttf
+        - asset: fonts/Averta/Commercial/TTF/AvertaDemoPE-Regular.ttf
+
+    - family: hero
+      fonts:
+        - asset: fonts/Hero-Bold.ttf
+          weight: 700
+        - asset: fonts/Hero-Light.ttf
+          weight: 300
+        - asset: fonts/Hero-Regular.ttf
+          weight: 400
+
+    - family: montblanc
+      fonts:
+        - asset: fonts/MontBlanc/Non-commercial/TTF/MontBlanc-Trial-Bold.ttf
+        - asset: fonts/MontBlanc/Non-commercial/TTF/MontBlanc-Trial-SemiBold.ttf
+        - asset: fonts/MontBlanc/Non-commercial/TTF/MontBlanc-Trial-Regular.ttf
+          weight: 600
+        - asset: fonts/MontBlanc/Non-commercial/TTF/MontBlanc-Trial-Light.ttf
+
+    - family: chopin
+      fonts:
+        - asset: fonts/Trial/TTF/Chopin-Trial-Bold.ttf
+          weight: 700
+        - asset: fonts/Trial/TTF/Chopin-Trial-Medium.ttf
+          weight: 500
+        - asset: fonts/Trial/TTF/Chopin-Trial-Light.ttf
+          weight: 300
+        - asset: fonts/Trial/TTF/Chopin-Trial-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Trial/TTF/Chopin-Trial-SemiBold.ttf
+          weight: 600
+
+    - family: playwrite
+      fonts:
+        - asset: fonts/PlaywriteFRModerne-VariableFont_wght.ttf
+
